@@ -1,0 +1,58 @@
+ion-title {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.icon-header {
+    color: #045082;
+}
+
+.profile-pic-container {
+    position: relative;
+    
+    #camera-icon {
+        border-radius: 50%;
+        color: #045082;
+        background: #fff;
+        font-size: 24px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px; 
+    }
+    
+}
+
+
+
+ion-thumbnail {
+    --border-radius: 15px;
+}
+
+.content-post-img {
+    margin-right: 16px;
+    margin-bottom: 24px;
+
+    .content-img {
+        width: 100%;
+        height: 180px;
+
+        img {
+            border-radius: 15px;
+
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .options {
+        margin-top: 8px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+
+        ion-icon {
+            font-size: 1.5em;
+        }
+    }
+}
